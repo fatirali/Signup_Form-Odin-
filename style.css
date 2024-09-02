@@ -8,3 +8,25 @@ body {
     height: 100vh;
     width: 40vw;
 }
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    width: 100%;
+  }

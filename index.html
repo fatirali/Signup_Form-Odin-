@@ -9,42 +9,46 @@
 </head>
 
 <body>
-    <div class="1st column">
+    <div class="first-column">
         <div class="horizontal-image">
             <img src="background-image.jpg" alt="" class="main-image">
         </div>
     </div>
-    <div class="2nd column">
+    <div class="second-column">
         <div class="initial-message">
             This is not a real online service! You know you need something like this in life to realize your dreams.
             Sign up now to get started.
 
             You know you want to.
         </div>
-        <form>
-            <div>
-                <label>FIRST NAME</label>
-                <input id="first-name" name="i-like" required />
+        <form class="form">
+            <div class="form-column">
+                <div class="form-input">
+                    <label>FIRST NAME</label>
+                    <input id="first-name" name="i-like" required />
+                </div>
+                <div class="form-input">
+                    <label>LAST NAME</label>
+                    <input id="last-name" name="i-like" required />
+                </div>
+                <div class="form-input">
+                    <label>EMAIL</label>
+                    <input id="email" name="i-like" required />
+                </div>
             </div>
-            <div>
-                <label>LAST NAME</label>
-                <input id="last-name" name="i-like" required />
-            </div>
-            <div>
-                <label>EMAIL</label>
-                <input id="email" name="i-like" required />
-            </div>
-            <div>
-                <label>PHONE NUMBER</label>
-                <input id="phone-number" name="i-like" required />
-            </div>
-            <div>
-                <label>PASSWORD</label>
-                <input id="password" name="i-like" required />
-            </div>
-            <div>
-                <label>CONFIRM PASSWORD</label>
-                <input id="confirm-password" name="i-like" required />
+            <div class="form-column">
+                <div class="form-input">
+                    <label>PHONE NUMBER</label>
+                    <input id="phone-number" name="i-like" required />
+                </div>
+                <div class="form-input">
+                    <label>PASSWORD</label>
+                    <input id="password" name="i-like" required />
+                </div>
+                <div class="form-input">
+                    <label>CONFIRM PASSWORD</label>
+                    <input id="confirm-password" name="i-like" required />
+                </div>
             </div>
         </form>
         <div class="create-account">
