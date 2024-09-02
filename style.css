@@ -18,6 +18,7 @@ body {
 .form {
     display: flex;
     flex-direction: row;
+    margin: 15px;
 }
 
 .form-column {
@@ -30,3 +31,19 @@ input, textarea {
     margin-bottom: 15px;
     width: 100%;
   }
+
+.initial-message {
+    padding: 15px;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.create-account {
+    padding: 30px;
+}
+
+.account-button {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+}
