@@ -46,4 +46,15 @@ input, textarea {
     width: 200px;
     height: 45px;
     border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+}
+
+.existing-user{
+    padding: 30px;
+}
+
+label {
+    font-size: 12px;
 }
