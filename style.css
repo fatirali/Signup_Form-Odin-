@@ -17,16 +17,21 @@ body {
 
 .form {
     display: flex;
-    flex-direction: row;
-    margin: 15px;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .form-column {
     display: flex;
     flex-direction: column;
-    margin: 15px;
 }
 
+.form-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
 input, textarea {
     margin-bottom: 15px;
     width: 100%;
@@ -57,4 +62,10 @@ input, textarea {
 
 label {
     font-size: 12px;
+}
+
+a {
+color: #596d48;
+font-weight: bold;
+text-decoration: none;
 }
