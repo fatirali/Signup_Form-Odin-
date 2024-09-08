@@ -30,29 +30,29 @@
                 <div class="form-column">
                     <div class="form-input">
                         <label>FIRST NAME</label>
-                        <input id="first-name" name="i-like" required />
+                        <input id="first-name" placeholder="John" pattern="[A-Za-z]+" name="i-like" required />
                     </div>
                     <div class="form-input">
                         <label>LAST NAME</label>
-                        <input id="last-name" name="i-like" required />
+                        <input id="last-name" placeholder="Doe" pattern="[A-Za-z]+" name="i-like" required />
                     </div>
                     <div class="form-input">
                         <label>EMAIL</label>
-                        <input id="email" name="i-like" required />
+                        <input type="email" id="email" placeholder="john.doe@gmail.com" name="i-like" required />
                     </div>
                 </div>
                 <div class="form-column">
                     <div class="form-input">
                         <label>PHONE NUMBER</label>
-                        <input id="phone-number" name="i-like" required />
+                        <input id="phone-number" placeholder="5141234567" pattern="^[0-9]+$" name="i-like" required />
                     </div>
                     <div class="form-input">
                         <label>PASSWORD</label>
-                        <input id="password" name="i-like" required />
+                        <input  type="password" id="password"  placeholder="Minimum length of 6 characters" minlength="6" maxlength="40"name="i-like" required />
                     </div>
                     <div class="form-input">
                         <label>CONFIRM PASSWORD</label>
-                        <input id="confirm-password" name="i-like" required />
+                        <input type="password" id="confirm-password" placeholder="Minimum length of 6 characters" minlength="6" maxlength="40" name="i-like" required />
                     </div>
                 </div>
             </div>
@@ -71,3 +71,5 @@
 </body>
 
 </html>
+
+

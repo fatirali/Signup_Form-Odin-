@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    background-color: #f7f7f7;
 }
 
 .main-image {
@@ -19,6 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-column {
@@ -30,12 +33,24 @@ body {
     display: flex;
     flex-direction: row;
     gap: 30px;
-
 }
+
 input, textarea {
     margin-bottom: 15px;
     width: 100%;
+    border-color: #E5E7EB;
+    border-style:solid;
   }
+input:focus {
+    outline: none;
+    border-color: lightblue;
+    border-width: 2px;
+}
+
+input:invalid {
+    outline: none;
+    border-color: red;
+}
 
 .initial-message {
     padding: 15px;
